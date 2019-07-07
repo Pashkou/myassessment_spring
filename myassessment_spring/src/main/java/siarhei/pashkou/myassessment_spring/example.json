@@ -1,0 +1,321 @@
+{
+	"content": [
+		{
+			"meta": {
+				"id": "005c2551-9361-4bc5-9e52-8bae8ba4e796",
+				"creationDate": "2019-07-02T05:03:47.518Z",
+				"updateDate": "2019-07-04T22:33:51.444Z",
+				"rubric": "SB",
+				"subRubric": "SB01",
+				"language": "fr",
+				"registrationOffice": {
+					"id": "e8e068a9-93fd-11e8-8935-0050569de354",
+					"displayName": "Office des poursuites du canton de Neuchâtel",
+					"street": "Avenue Léopold-Robert",
+					"streetNumber": "63",
+					"swissZipCode": "2300",
+					"town": "La Chaux-de-Fonds",
+					"containsPostOfficeBox": false,
+					"postOfficeBox": null
+				},
+				"publicationOriginator": null,
+				"publicationNumber": "SB01-0000000676",
+				"publicationState": "PUBLISHED",
+				"publicationDate": "2019-07-05T00:00:00.000Z",
+				"expirationDate": "2019-11-05T00:00:00.000Z",
+				"primaryTenantCode": "shab",
+				"onBehalfOf": null,
+				"invoiceAddressId": null,
+				"legalRemedy": "Une attention particulière doit être portée à la loi fédérale sur l’acquisition d’immeubles par des personnes à l’étranger (LFAIE) et à l'ordonnance sur l’acquisition d’immeubles par des personnes à l’étranger (OAIE). <br />Pour autant qu'elles ne soient pas constatées par les registres publics, les prétentions non annoncées dans le délai imparti sont exclues de la participation au produit de la vente. De même, les créanciers nantis de titres de gage doivent annoncer leurs créances garanties par nantissement. <br />Référence est par ailleurs faite aux conditions de mise aux enchères. <br />Publication selon les art. 231 et 232 LP; art. 29 et 123 de l'ORFI du 23 avril 1920.",
+				"cantons": [
+					"NE"
+				],
+				"secondaryTenants": null,
+				"repeatedPublications": null,
+				"customsStampImages": [],
+				"title": {
+					"de": "Betreibungsamtliche Grundstücksteigerung Denis Hubmann",
+					"en": "Property auction initiated by the debt enforcement office Denis Hubmann",
+					"it": "Incanto immobili da parte dell'Ufficio esecuzioni Denis Hubmann",
+					"fr": "Vente aux enchères d'immeubles dans le cadre de la poursuite Denis Hubmann"
+				},
+				"dossierReference": null,
+				"copyDeadline": null
+			},
+			"links": [],
+			"attachments": [],
+			"content": null,
+			"commented": false
+		},
+		{
+			"meta": {
+				"id": "4267f688-bd55-4095-aeb6-d449260f4a06",
+				"creationDate": "2019-07-04T06:45:49.241Z",
+				"updateDate": "2019-07-04T22:34:09.353Z",
+				"rubric": "SB",
+				"subRubric": "SB01",
+				"language": "de",
+				"registrationOffice": {
+					"id": "039b9861-cd4b-11e8-b397-0050569de354",
+					"displayName": "Betreibungsamt Reinach",
+					"street": "Kirchenbreitestrasse",
+					"streetNumber": "47",
+					"swissZipCode": "5734",
+					"town": "Reinach AG",
+					"containsPostOfficeBox": false,
+					"postOfficeBox": null
+				},
+				"publicationOriginator": null,
+				"publicationNumber": "SB01-0000000680",
+				"publicationState": "PUBLISHED",
+				"publicationDate": "2019-07-05T00:00:00.000Z",
+				"expirationDate": "2019-10-05T00:00:00.000Z",
+				"primaryTenantCode": "shab",
+				"onBehalfOf": null,
+				"invoiceAddressId": null,
+				"legalRemedy": "Es wird ausdrücklich auf das Bundesgesetz über den Erwerb von Grundstücken durch Personen im Ausland (BewG) sowie auf die Verordnung über den Erwerb von Grundstücken durch Personen im Ausland (BewV) aufmerksam gemacht. <br />Innert der Frist nicht angemeldete Ansprüche sind, soweit sie nicht durch die öffentlichen Bücher festgestellt sind, von der Teilnahme am Ergebnis der Verwertung ausgeschlossen. Ebenso haben Faustpfandgläubiger von Pfandtiteln ihre Faustpfandforderungen anzumelden. <br />Im Übrigen wird auf die Steigerungsbedingungen verwiesen. <br />Publikation nach SchKG 231, 232; VZG vom 23. April 1920, Art. 29 und 123.",
+				"cantons": [
+					"AG"
+				],
+				"secondaryTenants": [
+					{
+						"tenantCode": "kabag",
+						"publicationDate": "2019-07-05T00:00:00.000Z"
+					}
+				],
+				"repeatedPublications": null,
+				"customsStampImages": [],
+				"title": {
+					"de": "Betreibungsamtliche Grundstücksteigerung Vanja Vidic",
+					"en": "Property auction initiated by the debt enforcement office Vanja Vidic",
+					"it": "Incanto immobili da parte dell'Ufficio esecuzioni Vanja Vidic",
+					"fr": "Vente aux enchères d'immeubles dans le cadre de la poursuite Vanja Vidic"
+				},
+				"dossierReference": null,
+				"copyDeadline": null
+			},
+			"links": [],
+			"attachments": [],
+			"content": null,
+			"commented": false
+		},
+		{
+			"meta": {
+				"id": "421dc27e-9770-465a-a659-40d11a4496fa",
+				"creationDate": "2019-06-27T11:52:47.910Z",
+				"updateDate": "2019-07-04T22:34:48.831Z",
+				"rubric": "SB",
+				"subRubric": "SB01",
+				"language": "it",
+				"registrationOffice": {
+					"id": "1950f8c6-a6ad-11e8-b271-0050569d3c43",
+					"displayName": "Ufficio esecuzione di Mendrisio",
+					"street": "Via Pollini",
+					"streetNumber": "29",
+					"swissZipCode": "6850",
+					"town": "Mendrisio",
+					"containsPostOfficeBox": false,
+					"postOfficeBox": null
+				},
+				"publicationOriginator": null,
+				"publicationNumber": "SB01-0000000673",
+				"publicationState": "PUBLISHED",
+				"publicationDate": "2019-07-05T00:00:00.000Z",
+				"expirationDate": "2020-07-05T00:00:00.000Z",
+				"primaryTenantCode": "shab",
+				"onBehalfOf": null,
+				"invoiceAddressId": null,
+				"legalRemedy": "Va fatta particolare attenzione alla legge federale sull'acquisto di fondi da parte di persone all'estero (LAFE) e all'ordinanza sull’acquisto di fondi da parte di persone all’estero (OAFE). <br />I diritti che non sono stati fatti valere entro i termini non possono partecipare alla somma ricavata dalla realizzazione, a meno che non siano iscritti nei registri pubblici. I creditori con pegno manuale di titoli di pegno sono tenuti ad annunciare i propri crediti. <br />Si fa inoltre riferimento alle condizioni d'incanto. <br />Pubblicazione secondo gli art. 231 e 232 LEF e gli art. 29 e 123 del RFF del 23 aprile 1920.",
+				"cantons": [
+					"TI"
+				],
+				"secondaryTenants": [
+					{
+						"tenantCode": "kabti",
+						"publicationDate": "2019-07-05T00:00:00.000Z"
+					}
+				],
+				"repeatedPublications": null,
+				"customsStampImages": [],
+				"title": {
+					"de": "Betreibungsamtliche Grundstücksteigerung Yilmaz Erbagan",
+					"en": "Property auction initiated by the debt enforcement office Yilmaz Erbagan",
+					"it": "Incanto immobili da parte dell'Ufficio esecuzioni Yilmaz Erbagan",
+					"fr": "Vente aux enchères d'immeubles dans le cadre de la poursuite Yilmaz Erbagan"
+				},
+				"dossierReference": null,
+				"copyDeadline": null
+			},
+			"links": [],
+			"attachments": [],
+			"content": null,
+			"commented": false
+		},
+		{
+			"meta": {
+				"id": "2290f140-2025-4682-a722-3e4a65ca8baf",
+				"creationDate": "2019-06-28T07:56:04.195Z",
+				"updateDate": "2019-07-02T22:26:00.025Z",
+				"rubric": "SB",
+				"subRubric": "SB01",
+				"language": "fr",
+				"registrationOffice": {
+					"id": "c3cd28e7-80f7-11e8-a650-0050569de354",
+					"displayName": "Betreibungsamt Seeland, Dienststelle Biel",
+					"street": "Kontrollstrasse",
+					"streetNumber": "20",
+					"swissZipCode": "2503",
+					"town": "Biel/Bienne",
+					"containsPostOfficeBox": false,
+					"postOfficeBox": null
+				},
+				"publicationOriginator": null,
+				"publicationNumber": "SB01-0000000674",
+				"publicationState": "PUBLISHED",
+				"publicationDate": "2019-07-03T00:00:00.000Z",
+				"expirationDate": "2020-07-03T00:00:00.000Z",
+				"primaryTenantCode": "shab",
+				"onBehalfOf": null,
+				"invoiceAddressId": null,
+				"legalRemedy": "Une attention particulière doit être portée à la loi fédérale sur l’acquisition d’immeubles par des personnes à l’étranger (LFAIE) et à l'ordonnance sur l’acquisition d’immeubles par des personnes à l’étranger (OAIE). <br />Pour autant qu'elles ne soient pas constatées par les registres publics, les prétentions non annoncées dans le délai imparti sont exclues de la participation au produit de la vente. De même, les créanciers nantis de titres de gage doivent annoncer leurs créances garanties par nantissement. <br />Référence est par ailleurs faite aux conditions de mise aux enchères. <br />Publication selon les art. 231 et 232 LP; art. 29 et 123 de l'ORFI du 23 avril 1920.",
+				"cantons": [
+					"BE"
+				],
+				"secondaryTenants": [
+					{
+						"tenantCode": "kabbe",
+						"publicationDate": "2019-07-10T00:00:00.000Z"
+					}
+				],
+				"repeatedPublications": null,
+				"customsStampImages": [],
+				"title": {
+					"de": "Betreibungsamtliche Grundstücksteigerung Société simple Francisco Perez, Janete Perez Martinez (-Gomes dos Santos)",
+					"en": "Property auction initiated by the debt enforcement office Société simple Francisco Perez, Janete Perez Martinez (-Gomes dos Santos)",
+					"it": "Incanto immobili da parte dell'Ufficio esecuzioni Société simple Francisco Perez, Janete Perez Martinez (-Gomes dos Santos)",
+					"fr": "Vente aux enchères d'immeubles dans le cadre de la poursuite Société simple Francisco Perez, Janete Perez Martinez (-Gomes dos Santos)"
+				},
+				"dossierReference": null,
+				"copyDeadline": null
+			},
+			"links": [],
+			"attachments": [],
+			"content": null,
+			"commented": false
+		},
+		{
+			"meta": {
+				"id": "fdca082e-754b-4dc8-97de-bb3fed792986",
+				"creationDate": "2019-06-29T13:05:32.897Z",
+				"updateDate": "2019-07-01T22:23:20.213Z",
+				"rubric": "SB",
+				"subRubric": "SB01",
+				"language": "de",
+				"registrationOffice": {
+					"id": "75a88692-af60-11e8-a8b7-0050569d3c43",
+					"displayName": "Betreibungsamt Appenzeller Vorderland",
+					"street": "Paradiesweg",
+					"streetNumber": "2",
+					"swissZipCode": "9410",
+					"town": "Heiden",
+					"containsPostOfficeBox": true,
+					"postOfficeBox": {
+						"number": "42",
+						"swissZipCode": "9410",
+						"town": "Heiden"
+					}
+				},
+				"publicationOriginator": null,
+				"publicationNumber": "SB01-0000000675",
+				"publicationState": "PUBLISHED",
+				"publicationDate": "2019-07-02T00:00:00.000Z",
+				"expirationDate": "2022-07-02T00:00:00.000Z",
+				"primaryTenantCode": "shab",
+				"onBehalfOf": null,
+				"invoiceAddressId": null,
+				"legalRemedy": "Es wird ausdrücklich auf das Bundesgesetz über den Erwerb von Grundstücken durch Personen im Ausland (BewG) sowie auf die Verordnung über den Erwerb von Grundstücken durch Personen im Ausland (BewV) aufmerksam gemacht. <br />Innert der Frist nicht angemeldete Ansprüche sind, soweit sie nicht durch die öffentlichen Bücher festgestellt sind, von der Teilnahme am Ergebnis der Verwertung ausgeschlossen. Ebenso haben Faustpfandgläubiger von Pfandtiteln ihre Faustpfandforderungen anzumelden. <br />Im Übrigen wird auf die Steigerungsbedingungen verwiesen. <br />Publikation nach SchKG 231, 232; VZG vom 23. April 1920, Art. 29 und 123.",
+				"cantons": [
+					"AR"
+				],
+				"secondaryTenants": [
+					{
+						"tenantCode": "kabar",
+						"publicationDate": "2019-07-05T00:00:00.000Z"
+					}
+				],
+				"repeatedPublications": null,
+				"customsStampImages": [],
+				"title": {
+					"de": "Betreibungsamtliche Grundstücksteigerung Park Residenz Appenzellerland AG",
+					"en": "Property auction initiated by the debt enforcement office Park Residenz Appenzellerland AG",
+					"it": "Incanto immobili da parte dell'Ufficio esecuzioni Park Residenz Appenzellerland AG",
+					"fr": "Vente aux enchères d'immeubles dans le cadre de la poursuite Park Residenz Appenzellerland AG"
+				},
+				"dossierReference": null,
+				"copyDeadline": null
+			},
+			"links": [],
+			"attachments": [],
+			"content": null,
+			"commented": false
+		},
+		{
+			"meta": {
+				"id": "ef46a9d4-b4ea-4efc-bbbb-7424c3e01393",
+				"creationDate": "2019-06-26T11:17:46.590Z",
+				"updateDate": "2019-06-30T22:22:55.772Z",
+				"rubric": "SB",
+				"subRubric": "SB01",
+				"language": "de",
+				"registrationOffice": {
+					"id": "0d99a0cf-b11d-11e8-82c8-0050569de354",
+					"displayName": "Betreibungs- und Konkursamt der Region Albula",
+					"street": "Stradung",
+					"streetNumber": "26",
+					"swissZipCode": "7450",
+					"town": "Tiefencastel",
+					"containsPostOfficeBox": false,
+					"postOfficeBox": null
+				},
+				"publicationOriginator": null,
+				"publicationNumber": "SB01-0000000671",
+				"publicationState": "PUBLISHED",
+				"publicationDate": "2019-07-01T00:00:00.000Z",
+				"expirationDate": "2020-07-01T00:00:00.000Z",
+				"primaryTenantCode": "shab",
+				"onBehalfOf": null,
+				"invoiceAddressId": null,
+				"legalRemedy": "Es wird ausdrücklich auf das Bundesgesetz über den Erwerb von Grundstücken durch Personen im Ausland (BewG) sowie auf die Verordnung über den Erwerb von Grundstücken durch Personen im Ausland (BewV) aufmerksam gemacht. <br />Innert der Frist nicht angemeldete Ansprüche sind, soweit sie nicht durch die öffentlichen Bücher festgestellt sind, von der Teilnahme am Ergebnis der Verwertung ausgeschlossen. Ebenso haben Faustpfandgläubiger von Pfandtiteln ihre Faustpfandforderungen anzumelden. <br />Im Übrigen wird auf die Steigerungsbedingungen verwiesen. <br />Publikation nach SchKG 231, 232; VZG vom 23. April 1920, Art. 29 und 123.",
+				"cantons": [
+					"GR"
+				],
+				"secondaryTenants": [
+					{
+						"tenantCode": "kabgr",
+						"publicationDate": "2019-07-01T00:00:00.000Z"
+					}
+				],
+				"repeatedPublications": null,
+				"customsStampImages": [],
+				"title": {
+					"de": "Betreibungsamtliche Grundstücksteigerung Christine Gertrud Schmid-Dangel",
+					"en": "Property auction initiated by the debt enforcement office Christine Gertrud Schmid-Dangel",
+					"it": "Incanto immobili da parte dell'Ufficio esecuzioni Christine Gertrud Schmid-Dangel",
+					"fr": "Vente aux enchères d'immeubles dans le cadre de la poursuite Christine Gertrud Schmid-Dangel"
+				},
+				"dossierReference": null,
+				"copyDeadline": null
+			},
+			"links": [],
+			"attachments": [],
+			"content": null,
+			"commented": false
+		}
+	],
+	"total": 6,
+	"pageRequest": {
+		"sortOrders": [],
+		"page": 0,
+		"size": 100
+	}
+}
