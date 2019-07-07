@@ -1,5 +1,5 @@
 
-package siarhei.pashkou.versteigerung.shab.model;
+package siarhei.pashkou.versteigerung.shab.json.model;
 
 import java.util.HashMap;
 import java.util.List;

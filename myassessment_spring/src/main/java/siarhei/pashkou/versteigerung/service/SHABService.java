@@ -1,10 +1,10 @@
 package siarhei.pashkou.versteigerung.service;
 
 import java.io.IOException;
-import java.util.List;
 
 import javax.annotation.PostConstruct;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -12,47 +12,67 @@ import org.springframework.web.client.RestTemplate;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import siarhei.pashkou.versteigerung.shab.model.Content;
-import siarhei.pashkou.versteigerung.shab.model.SearchResult;
+import siarhei.pashkou.versteigerung.repository.SHABEntryRepository;
+import siarhei.pashkou.versteigerung.shab.db.model.SHABEntry;
+import siarhei.pashkou.versteigerung.shab.json.model.Content;
+import siarhei.pashkou.versteigerung.shab.json.model.Meta;
+import siarhei.pashkou.versteigerung.shab.json.model.RegistrationOffice;
+import siarhei.pashkou.versteigerung.shab.json.model.SearchResult;
 
 @Service
 public class SHABService {
 
 	private static final String SHAB_LIST_URL = "https://www.shab.ch/api/v1/publications?allowRubricSelection=true&includeContent=false&pageRequest.page=0&pageRequest.size=100&publicationDate.end=2019-07-07&publicationDate.start=2019-07-01&publicationStates=PUBLISHED&publicationStates=CANCELLED&searchPeriod=LAST7DAYS&subRubrics=SB01";
-	private static final String SHAB_SINGE_RESULT_URL = "https://www.shab.ch/api/v1/publications/005c2551-9361-4bc5-9e52-8bae8ba4e796/xml";
+	private static final String SHAB_SINGE_RESULT_URL = "https://www.shab.ch/api/v1/publications/";
 
-	
+	@Autowired
+	SHABEntryRepository shabEntryRepository;
+
 	@PostConstruct
 	public void init() {
 		try {
 			getList();
-			retrieveSingleResponse();
+			// retrieveAllResults();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
-	
+
 	public void getList() throws IOException {
 		RestTemplate restTemplate = new RestTemplate();
-		ResponseEntity<SearchResult> response
-		  = restTemplate.getForEntity(SHAB_LIST_URL, SearchResult.class);
-		
+		ResponseEntity<SearchResult> response = restTemplate.getForEntity(SHAB_LIST_URL, SearchResult.class);
 
 		SearchResult searchResult = response.getBody();
-		List<Content> searchList = searchResult.getContent();
-		
+		for (Content content : searchResult.getContent()) {
+			SHABEntry entry = new SHABEntry();
+			fillMetaData(entry, content.getMeta());
+			
+			RegistrationOffice registrationOffice = content.getMeta().getRegistrationOffice();
+			
+			
+
+			shabEntryRepository.save(entry);
+		}
+
 	}
 
-	
-	
-	public void retrieveSingleResponse() throws IOException {
+	private void fillMetaData(SHABEntry entry, Meta meta) {
+		entry.setMetaId(meta.getId());
+		entry.setRubric(meta.getRubric());
+		entry.setSubRubric(meta.getSubRubric());
+		entry.setLanguage(meta.getLanguage());
+		entry.setCreationDate(meta.getCreationDate());
+		entry.setUpdateDate(meta.getUpdateDate());
+	}
+
+	public void retrieveAllResults() throws IOException {
 		RestTemplate restTemplate = new RestTemplate();
-		ResponseEntity<String> response
-		  = restTemplate.getForEntity(SHAB_SINGE_RESULT_URL, String.class);
-	
-		ObjectMapper mapper = new ObjectMapper();
-		JsonNode root = mapper.readTree(response.getBody());
-		JsonNode name = root.path("name");
+
+		for (SHABEntry shabEntry : shabEntryRepository.findAll()) {
+			ResponseEntity<String> response = restTemplate
+					.getForEntity(SHAB_SINGE_RESULT_URL + shabEntry.getMetaId() + "/xml", String.class);
+
+		}
+
 	}
 }
