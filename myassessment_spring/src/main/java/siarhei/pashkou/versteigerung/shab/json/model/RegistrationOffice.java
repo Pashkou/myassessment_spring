@@ -132,4 +132,12 @@ public class RegistrationOffice {
         this.additionalProperties.put(name, value);
     }
 
+	@Override
+	public String toString() {
+		return "RegistrationOffice [id=" + id + ", displayName=" + displayName + ", street=" + street + ", streetNumber=" + streetNumber + ", swissZipCode=" + swissZipCode + ", town=" + town + ", containsPostOfficeBox=" + containsPostOfficeBox + ", postOfficeBox=" + postOfficeBox + ", additionalProperties="
+				+ additionalProperties + "]";
+	}
+    
+    
+
 }
