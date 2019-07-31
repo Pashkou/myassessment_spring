@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import siarhei.pashkou.versteigerung.service.SHABService;
-import siarhei.pashkou.versteigerung.shab.json.model.RegistrationOffice;
+import siarhei.pashkou.versteigerung.shab.json.model.list.RegistrationOffice;
 
 @RestController
 public class SHABController {

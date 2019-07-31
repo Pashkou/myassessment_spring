@@ -2,15 +2,19 @@ package siarhei.pashkou.versteigerung.service;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import siarhei.pashkou.versteigerung.shab.json.model.Content;
-import siarhei.pashkou.versteigerung.shab.json.model.RegistrationOffice;
-import siarhei.pashkou.versteigerung.shab.json.model.SearchResult;
+import siarhei.pashkou.versteigerung.shab.json.model.list.Content;
+import siarhei.pashkou.versteigerung.shab.json.model.list.RegistrationOffice;
+import siarhei.pashkou.versteigerung.shab.json.model.list.SearchResult;
+import siarhei.pashkou.versteigerung.shab.json.model.single.Codebeautify;
 
 @Service
 public class SHABService {
@@ -36,7 +40,11 @@ public class SHABService {
 	
 	public Object getSingleResult() throws IOException {
 		RestTemplate restTemplate = new RestTemplate();
-		ResponseEntity<SearchResult> forEntity = restTemplate.getForEntity(SHAB_SINGE_RESULT_URL, SearchResult.class);
+		MappingJackson2HttpMessageConverter mappingJackson2HttpMessageConverter = new MappingJackson2HttpMessageConverter();
+		mappingJackson2HttpMessageConverter.setSupportedMediaTypes(Arrays.asList(MediaType.APPLICATION_JSON, MediaType.APPLICATION_OCTET_STREAM));
+		restTemplate.getMessageConverters().add(mappingJackson2HttpMessageConverter);
+		
+		ResponseEntity<Codebeautify> forEntity = restTemplate.getForEntity(SHAB_SINGE_RESULT_URL, Codebeautify.class);
 		return forEntity;
 		
 	}
