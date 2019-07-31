@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KK08:publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:KK08="https://shab.ch/shab/KK08-export" xsi:schemaLocation="https://shab.ch/shab/KK08-export https://amtsblattportal.ch/api/v1/schemas/shab/1.5/KK08-export.xsd">
+<meta>
+  <id>d65b2f4e-0337-4096-9d83-f0f1bb7b288b</id>
+  <rubric>KK</rubric>
+  <subRubric>KK08</subRubric>
+  <language>de</language>
+  <registrationOffice>
+    <id>eeda2430-c610-11e8-82e1-0050569db5fb</id>
+    <displayName>Konkursamt St.Gallen, Regionalstelle Buchs</displayName>
+    <street>Bahnhofstrasse</street>
+    <streetNumber>2</streetNumber>
+    <swissZipCode>9470</swissZipCode>
+    <town>Buchs SG</town>
+    <containsPostOfficeBox>false</containsPostOfficeBox>
+    <postOfficeBox/>
+  </registrationOffice>
+  <publicationNumber>KK08-0000000174</publicationNumber>
+  <publicationState>PUBLISHED</publicationState>
+  <publicationDate>2019-07-22</publicationDate>
+  <expirationDate>2024-07-22</expirationDate>
+  <primaryTenantCode>shab</primaryTenantCode>
+  <legalRemedy>Es wird ausdrücklich auf das Bundesgesetz über den Erwerb von Grundstücken durch Personen im Ausland (BewG) sowie auf die Verordnung über den Erwerb von Grundstücken durch Personen im Ausland (BewV) aufmerksam gemacht. &lt;br />Publikation nach SchKG Art. 257-259.</legalRemedy>
+  <cantons>SG</cantons>
+  <secondaryTenants>
+    <tenantCode>kabsg</tenantCode>
+    <publicationDate>2019-07-22</publicationDate>
+  </secondaryTenants>
+  <title>
+    <de>Konkursamtliche Grundstücksteigerung AWA Immobilien GmbH in Liquidation</de>
+    <en>Auction of land by bankruptcy office AWA Immobilien GmbH in Liquidation</en>
+    <it>Vendita all'incanto forzata di fondi AWA Immobilien GmbH in Liquidation</it>
+    <fr>Vente aux enchères forcée d'immeubles AWA Immobilien GmbH in Liquidation</fr>
+  </title>
+</meta>
+<content>
+  <debtor>
+    <selectType>company</selectType>
+    <companies>
+      <noUID>false</noUID>
+      <company>
+        <name>AWA Immobilien GmbH in Liquidation</name>
+        <uid>CHE-296.110.837</uid>
+        <uidOrganisationId>296110837</uidOrganisationId>
+        <uidOrganisationIdCategorie>CHE</uidOrganisationIdCategorie>
+        <legalForm>0107</legalForm>
+        <address>
+          <street>Unterdorfstrasse</street>
+          <houseNumber>8a</houseNumber>
+          <swissZipCode>9443</swissZipCode>
+          <town>Widnau</town>
+        </address>
+        <canton>SG</canton>
+      </company>
+    </companies>
+  </debtor>
+  <auctionObjects>Grundbuch Gemeinde Wittenbach
+Stockwerkeigentum Nr. S1056, E-GRID CH627798905732
+Bruggwiesen 1, 9300 Wittenbach
+20/1000 Miteigentum an Grundstück Nr. 986
+Sonderrecht an der 2 1/2-Zimmer-Wohnung im 8. Obergeschoss mit Kellerabteil laut Begründungsvertrag und Aufteilungsplänen Nr. 25/1971
+Konkursamtliche Schätzung: Fr. 298'000.00</auctionObjects>
+  <auction>
+    <date>2019-08-22</date>
+    <time>10:00</time>
+    <location>Sitzungszimmer Konkursamt St.Gallen, Regionalstelle Buchs, Bahnhofstrasse 2, 9470 Buchs SG.</location>
+  </auction>
+  <informationAboutEdition>Auflage Steigerungsbedingungen: 29. Juli 2019 - 8. August 2019,  beim Konkursamt St.Gallen, Regionalstelle Buchs,  Bahnhofstrasse 2,  9470 Buchs SG.
+Die Verwertung des StWE-Grundstückes erfolgt im Spezialliquidationsverfahren gemäss Art. 230a SchKG.</informationAboutEdition>
+  <registrationOffice>Konkursamt St.Gallen, Regionalstelle Buchs Bahnhofstrasse 2 9470 Buchs SG</registrationOffice>
+  <remarks>a) Das Steigerungsobjekt kann durch allfällige Interessenten besichtigt werden. Eine Besichtigung in Begleitung des Konkursamtes findet nicht statt.
+b) Weitere Informationen zum Steigerungsobjekt finden Sie unter www.konkurs.sg.ch
+c) Der Ersteigerer hat unmittelbar vor dem Zuschlag auf Abrechnung am Zuschlagspreis eine Anzahlung von Fr. 50'000.00 in bar oder mittels Bankcheck (Order Konkursamt des Kantons St.Gallen, keine Privatchecks) einer Bank mit Sitz in der Schweiz zu leisten. Der Restbetrag ist innert 10 Tagen seit der Steigerung durch Überweisung zu bezahlen.
+d) Es wird ausdrücklich auf Art. 257 ff. SchKG, Art. 130 ff. VZG, Art. 71 ff. KOV, sowie auf das Bundesgesetz über den Erwerb von Grundstücken durch Personen im Ausland (SR 211.412.41) und die dazugehörende Verordnung (SR 211.412.411) verwiesen.
+
+Konkursamt St.Gallen
+Regionalstelle Buchs
+Bahnhofstrasse 2
+9470 Buchs SG</remarks>
+</content>
+</KK08:publication>

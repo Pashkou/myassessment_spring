@@ -20,4 +20,9 @@ public class SHABController {
     public List<RegistrationOffice> getList() throws IOException {
         return shabService.getList();
     }
+	
+	@RequestMapping("/singleresult")
+	public Object getSingleResult() throws IOException {
+		return shabService.getSingleResult();
+	}
 }
